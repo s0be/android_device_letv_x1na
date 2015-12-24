@@ -280,7 +280,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8994
+    power.msm8994 \
+    lights.msm8994
 
 # Qualcomm
 PRODUCT_COPY_FILES += \

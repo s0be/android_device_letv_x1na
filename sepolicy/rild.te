@@ -1,2 +1,5 @@
 allow rild nv_data_file:dir { getattr search write create add_name };
 allow rild nv_data_file:file { create open write };
+
+#============= radio ==============
+allow radio system_app_data_file:dir search;

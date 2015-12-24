@@ -1,3 +1,7 @@
+type wifi_mac, domain;
+type wifi_mac_exec, exec_type, file_type;
+init_daemon_domain(wifi_mac)
+
 allow wcnss_service persist_file:dir { search write create add_name };
 allow wcnss_service nv_data_file:dir { search };
 allow wcnss_service nv_data_file:file { open read getattr };
